@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="table.js"></script>
+</head>
+
+<body>
+    <div class="div" style=" width:25%; height: 300px; background:rgb(226, 195, 17);">
+        <center>
+            <form>
+                <label>FIRST NAME</label>
+                <br>
+                <input type="text" id="name" required>
+                <br>
+                <label>LAST NAME</label>
+                <br>
+                <input type="text" id="lname" required>
+                <br>
+                <label>EMAIL</label>
+                <br>
+                <input type="email" id="email" required>
+                <br>
+                <label>CONTACT NUMBER</label>
+                <br>
+                <input type="text" id="contact" required>
+                <br>
+                <label>AGE</label>
+                <br>
+                <input type="text" id="password" required>
+                <br>
+            </form>
+
+            <button id="show" onclick="show()" style="background-color: lightgreen;">SHOW</button>
+        </center>
+    </div>
+    <div class="table">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th>EMAIL</th>
+                    <th>CONTACT NUMBER</th>
+                    <th>AGE</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
